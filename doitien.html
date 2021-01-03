@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyển đổi tiền tệ</title>
+</head>
+<body>
+<h2>Chuyển đổi tiền tệ</h2>
+<img src="CV/audio/comy.png">
+    <table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="soluong"></td>
+        <td><select id="loaitien1">
+                <option  value="23000" selected>Vietnam </option>
+                <option value="1">USD</option>
+                <option value="1109">Won</option>
+                <option value="104">Yen</option>
+                <option value="6">NDT</option>
+            </select>
+        </td>
+        <td>
+            <select id="loaitien2">
+                <option value="23000" >Vietnam</option>
+                <option value="1" selected>USD</option>
+                <option value="1109">Won</option>
+                <option value="104">Yen</option>
+                <option value="6">NDT</option>
+            </select>
+        </td>
+        <td><input type="submit" value="Convert" onclick="show();"></td>
+    </tr>
+</table>
+<p id="sotien">Số lượng tiền sau đổi:</p>
+</body>
+</html>
+<style>
+    table {
+        padding: 15px;
+        border: blue;
+        width: 600px;
+        height: 60px;
+
+    }
+    select#loaitien1 option[value="Vietnam"] {background-image: url(CV/audio/VN.png);}
+
+    img {
+       width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+
+</style>
+<script>
+    function show() {
+        let soluong;
+        let loai1;
+        let loai2;
+        let sotien;
+        soluong=document.getElementById("soluong").value;
+        loai1= document.getElementById('loaitien1').value;
+        loai2=document.getElementById('loaitien2').value;
+        sotien= (soluong*loai2)/loai1
+        alert('Số tiền chuyển đổi:'+sotien);
+        document.getElementById('sotien').innerText= sotien;
+    }
+</script>

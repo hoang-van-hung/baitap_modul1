@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41f9567-b37b-4fd7-a2f4-290adac5e5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/baitap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MindMap.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modul1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ungdung_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV/CV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ungdung_1/doitien.html" beforeDir="false" afterPath="$PROJECT_DIR$/ungdung_1/doitien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ungdung_1/mtinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV" beforeDir="false" afterPath="$PROJECT_DIR$/CV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ungdung_1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CV" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mH6vK17SGBlxX6mDLkI6tj1Kve" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +61,7 @@
       <workItem from="1609582725197" duration="42000" />
       <workItem from="1609589440974" duration="217000" />
       <workItem from="1609594964216" duration="22000" />
-      <workItem from="1609674498543" duration="358000" />
+      <workItem from="1609674498543" duration="1058000" />
     </task>
     <servers />
   </component>
